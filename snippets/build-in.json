@@ -1,0 +1,32 @@
+{
+  "Graph Creation": {
+    "prefix": ["graph", "new-graph"],
+    "body": [
+      "const graph = new Graph({",
+      "container: ${1:containerRef},",
+      "grid: ${2:true}",
+      "})"
+    ],
+    "description": "antv graph object"
+  },
+  "Add Node": {
+    "prefix": ["node", "addNode"],
+    "body": [
+      "graph.addNode({",
+      "shape:${9:'rect'},",
+      "x: ${1:200},",
+      "y: ${2:40},",
+      "width: ${3:120},",
+      "height: ${4:60},",
+      "label: ${5:'rect'},",
+      "imageUrl:${8:$img},",
+      "text:${10},",
+      "attrs: {",
+      "\tbody: {",
+      "\tfill: ${6},",
+      "\tstroke: ${7},",
+      "}}})"
+    ],
+    "description": "add node to the graph"
+  }
+}
