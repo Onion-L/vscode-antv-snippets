@@ -1,0 +1,27 @@
+{
+  "name": "vscode-antv-sinippet",
+  "displayName": "vscode-antv-sinippet",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.90.2"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "tpyescript": {
+      "id": "typescript",
+      "extensions": [
+        "ts",
+        "tsx"
+      ]
+    },
+    "snippets": [
+      {
+        "language": "typescript",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+}
