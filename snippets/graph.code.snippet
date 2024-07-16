@@ -2,17 +2,81 @@
   "Create Graph": {
     "prefix": [
       "graph",
-      "new-graph",
       "newgraph"
     ],
     "body": [
-      "const graph = new Graph({",
-      "container: ${1:containerRef},",
+      "const ${1:graph} = new Graph({",
+      "container: ${2:containerRef},",
       "width: ${3:800},",
       "height: ${4:600},",
-      "grid: ${2:true}",
+      "grid: ${5:true}",
       "})"
     ],
     "description": "antv graph object"
+  },
+  "New Graph AutoResize": {
+    "prefix": [
+      "graphautoresize",
+      "newgraph.autoresize",
+      "newgraphautoresize"
+    ],
+    "body": [
+      "const ${1:graph} = new Graph({",
+      "container: ${2:containerRef},",
+      "autoResize: ${3:true},",
+      "})"
+    ],
+    "description": "antv graph autoResize"
+  },
+  "New Graph panning": {
+    "prefix": [
+      "graphpanning",
+      "newgraph.panning",
+      "newgraphpanning"
+    ],
+    "body": [
+      "const ${1:graph} = new Graph({",
+      "container: ${2:containerRef},",
+      "panning: {,",
+      "\tenabled: ${3:true},",
+      "\teventTypes: ['leftMouseDown'],",
+      "}",
+      "})"
+    ],
+    "description": "antv graph panning(画布通过开启 panning 选项来支持拖拽平移。)"
+  },
+  "Graph Grid": {
+    "prefix": [
+      "graphgrid",
+      "newgraph.grid",
+      "newgraphgrid"
+    ],
+    "body": [
+      "const ${1:graph} = new Graph({",
+      "container: ${2:containerRef},",
+      "grid: {",
+      "\tgrid:{,",
+      "\t\tsize:10,",
+      "\t\tvisible:${3:true},",
+      "\t\ttype:${4|'dot','fixedDot','mesh','doubleMesh'|},",
+      "arg:${5:{color:'#000',thickness:1}},",
+      "\t},",
+      "},",
+      "})"
+    ],
+    "description": "antv graph grid"
+  },
+  "Graph Background": {
+    "prefix": [
+      "graphbackground",
+      "newgraph.background",
+      "newgraphbackground"
+    ],
+    "body": [
+      "const ${1:graph} = new Graph({",
+      "\tcontainer: 'mountNode',",
+      "background:${2:|false,{color:'#fff'}|}",
+      "}）"
+    ]
   }
 }
