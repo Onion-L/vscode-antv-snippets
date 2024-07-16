@@ -1,16 +1,9 @@
 {
-  "Graph Creation": {
-    "prefix": ["graph", "new-graph"],
-    "body": [
-      "const graph = new Graph({",
-      "container: ${1:containerRef},",
-      "grid: ${2:true}",
-      "})"
+  "Add Node Regular": {
+    "prefix": [
+      "node",
+      "addNode"
     ],
-    "description": "antv graph object"
-  },
-  "Add Node": {
-    "prefix": ["node", "addNode"],
     "body": [
       "graph.addNode({",
       "shape:${9:'rect'},",
@@ -28,5 +21,21 @@
       "}}})"
     ],
     "description": "add node to the graph"
+  },
+  "Add Node With Shape": {
+    "prefix": [
+      "circle",
+      "addNodecircle"
+    ],
+    "body": [
+      "graph.addNode({",
+      "shape:${9:'cirlce'},",
+      "x: ${1:200},",
+      "y: ${2:40},",
+      "width: ${3:120},",
+      "height: ${4:60},",
+      "label: ${5:'rect'},",
+      "imageUrl:${8:$img},"
+    ]
   }
 }

@@ -13,7 +13,11 @@
     "snippets": [
       {
         "language": "typescriptreact",
-        "path": "./snippets/build-in.json"
+        "path": "./snippets/node.code.snippet"
+      },
+      {
+        "language": "typescriptreact",
+        "path": "./snippets/graph.code.snippet"
       }
     ]
   }
