@@ -1,9 +1,3 @@
-<p align="center">
-  <a href="#" target="_blank" rel="noopener noreferrer">
-    <img width="240" src="/res/original.svg" alt="logo">
-  </a>
-</p>
-
 # AntV Snippet :purple_heart:
 
 - :sparkles: Easy to Use, Refreshing Experience
