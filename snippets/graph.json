@@ -76,7 +76,25 @@
       "const ${1:graph} = new Graph({",
       "\tcontainer: 'mountNode',",
       "background:${2:|false,{color:'#fff'}|}",
-      "}）"
-    ]
+      "})"
+    ],
+    "description": "antv graph background"
+  },
+  "Graph Moushwheel": {
+    "prefix": [
+      "graph mousewheel",
+      "new graph.mousewheel",
+      "new graph mousewheel"
+    ],
+    "body": [
+      "const ${1:graph} = new Graph({",
+      "\tcontainer: 'mountNode',",
+      "mousewheel:{",
+      "\t\tenable:${2|true,false|},",
+      "\t\tmodifiers:${3:['ctrl']}",
+      "\t\t}",
+      "})"
+    ],
+    "description": "antv graph mousewheel"
   }
 }
