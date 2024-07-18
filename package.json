@@ -1,12 +1,24 @@
 {
   "name": "vscode-antv-sinippet",
-  "displayName": "vscode-antv-sinippet",
-  "description": "AntV Snippet",
-  "version": "0.0.1",
+  "displayName": "AntV Sinippets",
+  "description": "AntV Snippets",
+  "version": "0.0.3",
   "engines": {
-    "vscode": "^1.90.2"
+    "vscode": "^1.35.0"
   },
+  "icon": "res/icon.png",
   "publisher": "20095236",
+  "author": "Onion-L",
+  "bugs": {
+    "url": "https://github.com/Onion-L/vscode-antv-snippets/issues"
+  },
+  "keywords": [
+    "antv",
+    "AntV X6",
+    "react",
+    "vscode",
+    "vscode-extension"
+  ],
   "categories": [
     "Snippets"
   ],
