@@ -6,6 +6,7 @@
   "engines": {
     "vscode": "^1.90.2"
   },
+  "publisher": "20095236",
   "categories": [
     "Snippets"
   ],

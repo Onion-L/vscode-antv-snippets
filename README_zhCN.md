@@ -1,9 +1,9 @@
-# AntV Snippet :purple_heart:
+# AntV Snippet 🩷
 
-- :sparkles: 使用方便，体验清爽
-- :fire: 快速高效，超乎预期
-- :gem: 快乐编码，幸福加倍
-- :sunny: 少写代码，多思考
+- 🌟 使用方便，体验清爽
+- 🔥 快速高效，超乎预期
+- 💎 快乐编码，幸福加倍
+- ☀️ 少写代码，多思考
 
 ## 🚀 快速开始
 
@@ -17,7 +17,7 @@
 
 <img src="/res/image.png" />
 
-## 🌟 贡献
+## 🥰 贡献
 
 感谢所有为 AntV Snippet 做出贡献的开发人员。
 
