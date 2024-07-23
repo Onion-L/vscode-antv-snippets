@@ -1,9 +1,6 @@
 {
   "Create Graph": {
-    "prefix": [
-      "graph",
-      "new graph"
-    ],
+    "prefix": ["graph"],
     "body": [
       "const ${1:graph} = new Graph({",
       "container: ${2:containerRef},",
@@ -15,11 +12,7 @@
     "description": "antv graph object"
   },
   "New Graph AutoResize": {
-    "prefix": [
-      "graph autoresize",
-      "new graph.autoresize",
-      "new graph autoresize"
-    ],
+    "prefix": ["graph autoresize"],
     "body": [
       "const ${1:graph} = new Graph({",
       "container: ${2:containerRef},",
@@ -29,11 +22,7 @@
     "description": "antv graph autoResize"
   },
   "New Graph panning": {
-    "prefix": [
-      "graph panning",
-      "new graph.panning",
-      "new graph panning"
-    ],
+    "prefix": ["graph panning"],
     "body": [
       "const ${1:graph} = new Graph({",
       "container: ${2:containerRef},",
@@ -46,11 +35,7 @@
     "description": "antv graph panning(画布通过开启 panning 选项来支持拖拽平移。)"
   },
   "Graph Grid": {
-    "prefix": [
-      "graph grid",
-      "new graph.grid",
-      "new graph grid"
-    ],
+    "prefix": ["graph grid"],
     "body": [
       "const ${1:graph} = new Graph({",
       "container: ${2:containerRef},",
@@ -67,11 +52,7 @@
     "description": "antv graph grid"
   },
   "Graph Background": {
-    "prefix": [
-      "graph background",
-      "new graph.background",
-      "new graph background"
-    ],
+    "prefix": ["graph background"],
     "body": [
       "const ${1:graph} = new Graph({",
       "\tcontainer: 'mountNode',",
@@ -81,14 +62,9 @@
     "description": "antv graph background"
   },
   "Graph Moushwheel": {
-    "prefix": [
-      "graph mousewheel",
-      "new graph.mousewheel",
-      "new graph mousewheel"
-    ],
+    "prefix": ["graph mousewheel"],
     "body": [
       "const ${1:graph} = new Graph({",
-      "\tcontainer: 'mountNode',",
       "mousewheel:{",
       "\t\tenable:${2|true,false|},",
       "\t\tmodifiers:${3:['ctrl']}",
@@ -96,5 +72,17 @@
       "})"
     ],
     "description": "antv graph mousewheel"
+  },
+  "Graph Scaling": {
+    "prefix": ["graph scaling"],
+    "body": [
+      "const ${1:graph} = new Graph({",
+      "\tscaling: {,",
+      "\t\tmin: 0.05,",
+      "\t\t max: 12,",
+      "\t}",
+      "})"
+    ],
+    "description": "antv graph scaling"
   }
 }

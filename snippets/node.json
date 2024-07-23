@@ -1,9 +1,6 @@
 {
   "Add Node Regular": {
-    "prefix": [
-      "node",
-      "addNode"
-    ],
+    "prefix": ["addNode"],
     "body": [
       "graph.addNode({",
       "shape:${9:'rect'},",
@@ -23,19 +20,17 @@
     "description": "add node to the graph"
   },
   "Add Node With Shape": {
-    "prefix": [
-      "circle",
-      "addNodecircle"
-    ],
+    "prefix": ["addNode Shape"],
     "body": [
       "graph.addNode({",
-      "shape:${9:'cirlce'},",
-      "x: ${1:200},",
-      "y: ${2:40},",
-      "width: ${3:120},",
-      "height: ${4:60},",
-      "label: ${5:'rect'},",
-      "imageUrl:${8:$img},"
-    ]
+      "shape:${1},",
+      "x: ${2:200},",
+      "y: ${3:40},",
+      "width: ${4:120},",
+      "height: ${5:60},",
+      "label: ${6:'rect'},",
+      "imageUrl:${7:$img},"
+    ],
+    "description": "add node with shape to the graph"
   }
 }
