@@ -30,11 +30,11 @@
     "snippets": [
       {
         "language": "typescriptreact",
-        "path": "./snippets/node.json"
+        "path": "./snippets/G6/node.json"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/graph.json"
+        "path": "./snippets/G6/graph.json"
       }
     ]
   }
